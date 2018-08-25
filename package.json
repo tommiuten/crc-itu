@@ -1,0 +1,52 @@
+{
+  "_from": "crc-itu",
+  "_id": "crc-itu@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha1-/vbdFzZammxQFfDCd3tCrQ0G+Gg=",
+  "_location": "/crc-itu",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "crc-itu",
+    "name": "crc-itu",
+    "escapedName": "crc-itu",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/crc-itu/-/crc-itu-0.1.0.tgz",
+  "_shasum": "fef6dd17365a9a6c5015f0c2777b42ad0d06f868",
+  "_spec": "crc-itu",
+  "_where": "/home/ktdserv/gt06e-nodejs",
+  "author": {
+    "name": "damphat@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/damphat/crc-itu/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "crc-itu 16 bits",
+  "gypfile": true,
+  "homepage": "https://github.com/damphat/crc-itu",
+  "keywords": [
+    "crc",
+    "itu"
+  ],
+  "main": "index.js",
+  "name": "crc-itu",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damphat/crc-itu.git"
+  },
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "test": "node test.js"
+  },
+  "version": "0.1.0"
+}

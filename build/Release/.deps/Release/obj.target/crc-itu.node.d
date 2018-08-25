@@ -1,0 +1,1 @@
+cmd_Release/obj.target/crc-itu.node := g++ -shared -pthread -rdynamic -m64  -Wl,-soname=crc-itu.node -o Release/obj.target/crc-itu.node -Wl,--start-group Release/obj.target/crc-itu/lib/crc-itu.o -Wl,--end-group 
